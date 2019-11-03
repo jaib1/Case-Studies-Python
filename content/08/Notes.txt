@@ -1,0 +1,12 @@
+Notes for tutorial:
+
+- Open Ipython console
+- `%` for magic commands (e.g. `%clear`, `%matplotlib tk` vs. `%matplotlib inline`, del)
+- shift+tab for docstring info 
+- hotkey shortcuts
+- Layout of tutorial:
+	- Question structure
+	- Code hidden, but generated output shown
+	- try creating new cell to answer questions
+- Open 'References' from 'Help' drop-down menu
+- OO API for plotting in matplotlib
