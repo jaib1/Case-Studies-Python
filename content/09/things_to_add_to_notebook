@@ -1,31 +1,30 @@
-1) mention that the point of GLMs is to create unique distributions for each unique set of covariates (because we have multiple responses at each unique set of covariates) by fitting the mean of a selected distribution to each unique set of covariates.
 
-2) clarify that we want to use a linear function (mean function - inverse of link function) to estimate the mean of the selected distribution at each unique set of covariates.
 
-3) start off by saying we want to use Poisson regression, rather than stating this after stating the link function
+0)* don't reuse variable names - make them unique for different models
 
-4) go more in detail on AIC: explain it as a way to estimate the relative amount of information lost between models
+1)* add kstest to ks plots
 
-5) look up **model deviance**
-	- play with different ways to compute the deviance (e.g. the model curve - a smoothed hist curve)
+2) look up AIC
+	- go more in detail on AIC: explain it as a way to estimate the relative amount of information lost between models
 
-6) Why do we use the factor of 2 in AIC and deviance? -> related to chi-square value: 2 * negative log-likelihood = chi-square value
+3) look up **model deviance**
+	- play with different ways to compute the deviance (e.g. the model curve minus a smoothed hist curve)
 
-7) look up MLRTs and relation to chi-square distribution
+4) state why we use the factor of 2 in AIC and deviance? -> related to chi-square value: 2 * negative log-likelihood = chi-square value
+
+5) look up MLRTs and relation to chi-square distribution
 	- why is the test statistics for MLRT equivalent to difference between deviances of nested models?
 	- why is the degrees of freedom of the chi square statistics that comes from MLRT equal to k2 - k1?
 
-8) How is the standard error for a parameter estimate calculated?
-	- Look up Fisher information
+6) How is the standard error for a parameter estimate calculated?
+	- look up Fisher information
 
-9) Look up Wald test
+7) look up Wald test
 
-10) Look up time-rescaling theorem
+8) look up time-rescaling theorem
 
-11) Look up ECDF class/function
+9) look up ECDF class/function
 
-12) Compute all model calculations without using built-in GLM class model attributes/methods
+10) look up difference between raw, deviance, and Pearson residuals. Add raw and deviance residuals to notebook.
 
-13) Look up difference between raw, deviance, and Pearson residuals. Add raw and deviance residuals to notebook.
-
-14) add kstest to ks plots
+11) Compute all model calculations without using built-in GLM class model attributes/methods
